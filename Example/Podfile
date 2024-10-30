@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'MeherySender_Example' do
+  pod 'MeherySender', :path => '../'
+
+  target 'MeherySender_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
