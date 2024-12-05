@@ -1,0 +1,16 @@
+PODS:
+  - MeherySender (0.1.0)
+
+DEPENDENCIES:
+  - MeherySender (from `../`)
+
+EXTERNAL SOURCES:
+  MeherySender:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MeherySender: c6b1c80c2382845ff8dfb83aa5368f21c5a84ce9
+
+PODFILE CHECKSUM: 7652f9aa71bdc7e4c14a0f64dfa15f223d8139c4
+
+COCOAPODS: 1.16.2

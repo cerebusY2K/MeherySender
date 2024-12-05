@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import MeherySender
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        _ = MeSend.shared
         // Do any additional setup after loading the view, typically from a nib.
     }
 

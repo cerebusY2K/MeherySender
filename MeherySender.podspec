@@ -9,7 +9,9 @@
 Pod::Spec.new do |s|
   s.name             = 'MeherySender'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of MeherySender.'
+  s.summary          = 'MeherySender is an SDK used by Mehery to send push notification to your device / customer devices.'
+  s.swift_version = '5.0'
+  s.ios.deployment_target = '12.0'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,15 +20,17 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+  MeherySender is an SDK used by Mehery to send push notification to your device / customer devices. TODO Add to example app
                        DESC
 
-  s.homepage         = 'https://github.com/ninjabase8085/MeherySender'
+  s.homepage         = 'https://github.com/cerebusY2K/MeherySender'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ninjabase8085' => 'pranjal.3vyas@gmail.com' }
-  s.source           = { :git => 'https://github.com/ninjabase8085/MeherySender.git', :tag => s.version.to_s }
+  s.author           = { 'ninjabase8085' => 'pranjal.7vyas@gmail.com' }
+  s.source           = { :git => 'https://github.com/cerebusY2K/MeherySender.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+#  s.source_files = 'YourSDKName/*.{h,m,swift}'
+
 
   s.ios.deployment_target = '10.0'
 

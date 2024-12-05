@@ -1,0 +1,6 @@
+framework module MeherySender {
+  umbrella header "MeherySender-umbrella.h"
+
+  export *
+  module * { export * }
+}

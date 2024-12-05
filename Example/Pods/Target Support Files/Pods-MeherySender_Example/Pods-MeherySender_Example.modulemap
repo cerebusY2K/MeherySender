@@ -1,0 +1,6 @@
+framework module Pods_MeherySender_Example {
+  umbrella header "Pods-MeherySender_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}
